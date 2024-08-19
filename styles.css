@@ -11,8 +11,9 @@ body{
 /* Header section */
 
 header{
-    background-color: darkolivegreen;
-    height: 50vh;
+    font-size: 20px;
+    background-color: rgb(161, 237, 196);
+    height: 60vh;
     padding: 20px 150px;
     display: flex;
     flex-direction: column;
@@ -53,9 +54,14 @@ nav ul li a{
     border-radius: 5px;
 }
 
+.slogan h1{
+    font-size: 48px;
+}
+
 /*the section of the showroom */
 
 .showroom{
+    color: #f9faf8;
     height: 35vh;
     padding: 50px 30px;
     display: flex;
@@ -66,10 +72,17 @@ nav ul li a{
     background-color: darkslategrey;
 }
 
+.showroom h2{
+    font-size:26px;
+    text-transform: uppercase;
+}
+
 .container{
     display: flex;
     gap: 10px;
 }
+
+
 
 .one,
 .two,
@@ -81,14 +94,15 @@ nav ul li a{
 
 .container img{
     border-radius:5px ;
-    border: 1px solid red;
+    border: 1px solid wheat;
 }
 
 /* the section of the feedback */
 
 .feedback{
-    background-color: cadetblue;
-    padding: 0 425px;
+    color: #1f2937;
+    background-color: #e5e7eb;
+    padding: 0 410px;
     display: flex;
     height: 35vh;
     flex-direction: column;
@@ -96,7 +110,13 @@ nav ul li a{
     justify-content: center;
 }
 
+.feedback p{
+    font-size: 26px;
+    font-style: italic;
+}
+
 .feedback h3{
+    text-transform: uppercase;
     margin: 1px 0 0 auto;
 }
 
@@ -125,8 +145,10 @@ nav ul li a{
     border-radius: 5px;
 }
 
+/* this is the footer section */
+
 footer{
-    background-color: grey;
+    background-color: rgb(161, 237, 196);
     height: 8vh;
     display: flex;
     justify-content: center;
